@@ -1,21 +1,19 @@
 package main // executable type package 
 
-
 import "fmt"
 
 func main() {
 
-	//var card string = "Ace of Spades"
-	cards := [] string{"Ace of Diamonds", newCard(),}
-	cards = append(cards, "Six of Spades")
-	
-	for i, card := range cards{
-		fmt.Println(i, card)
-	}
+//	var card string = "Ace of Spades"
+//	cards := newDeck()
+//	hand, remainingCards := deal(cards, 5)
+//
+//	hand.print()
+////	remainingCards.print()
+	greeting := "Hi there!"
+	fmt.Println([]byte(greeting))
 
 }
 
 
-func newCard() string {
-	return "Five of Diamonds"
-}
+

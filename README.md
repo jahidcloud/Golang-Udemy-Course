@@ -26,3 +26,11 @@ Base GO Types
 string/integer/float/array/map
 
 type deck []string 
+
+
+func (d deck) print(){
+
+}
+
+Any variable of type "deck" now gets access to the 
+"print" method 
