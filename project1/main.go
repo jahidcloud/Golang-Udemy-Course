@@ -10,9 +10,11 @@ func main() {
 //
 //	hand.print()
 ////	remainingCards.print()
-	greeting := "Hi there!"
-	fmt.Println([]byte(greeting))
+//	greeting := "Hi there!"
+//	fmt.Println([]byte(greeting))
 
+    cards := newDeck()
+    fmt.Println(cards.toString())
 }
 
 
