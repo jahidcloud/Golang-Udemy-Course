@@ -1,6 +1,10 @@
 package main // executable type package 
 
-import "fmt"
+import (
+
+//    "fmt"
+//      "ioutil"
+)    
 
 func main() {
 
@@ -14,7 +18,7 @@ func main() {
 //	fmt.Println([]byte(greeting))
 
     cards := newDeck()
-    fmt.Println(cards.toString())
+    cards.saveToFile("my_cards")
 }
 
 
